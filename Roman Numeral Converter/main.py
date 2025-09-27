@@ -13,7 +13,7 @@ def roman_to_int(numeral):
         convertedValue += 90
         numeral = numeral.replace("XC", "")
     if "XL" in numeral:
-        convertedValue += 9
+        convertedValue += 40
         numeral = numeral.replace("XL", "")
     if "IX" in numeral:
         convertedValue += 9
