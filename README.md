@@ -32,7 +32,7 @@ Each project folder is independent and can be run on its own.
 
 ## Projects
 
-### Word Guessing Game
+### 0. Word Guessing Game
 
 A terminal-based word guessing game where the player attempts to guess a randomly chosen word one letter at a time.
 
@@ -66,7 +66,7 @@ Current word: _ y _ _ _ _
 
 ---
 
-### Roman Numeral Converter
+### 1. Roman Numeral Converter
 
 Converts Roman numerals into integers based on user input.
 
@@ -84,5 +84,41 @@ Converts Roman numerals into integers based on user input.
   Enter the roman numeral: XX
   Entered roman numeral translates to: 20
   ```
+
+---
+
+Perfect — here’s the updated **QR Code Generator README entry** with a short usage example:
+
+---
+
+### 2. QR Code Generator
+
+This project generates a QR code for any given text or link using Python’s `qrcode` library. In this case, the program encodes a GitHub profile URL and saves it as an image file.
+
+**Key Features**
+
+* Converts text/links into a scannable QR code.
+* Customizable size, border, and colors.
+* Saves the QR code as a reusable `.png` image.
+
+**Tech Stack**
+
+* **Python**
+* **qrcode** (for QR code generation)
+* **Pillow** (for image handling)
+
+**Usage Example**
+
+```bash
+python main.py
+```
+
+This generates a file named `github_qr.png` in the project folder. Scanning the QR code opens the linked GitHub profile.
+
+**What I Learned**
+
+* How to integrate external Python libraries into a project.
+* How QR codes can be generated and customized programmatically.
+* The workflow of turning data into a shareable image file.
 
 ---
