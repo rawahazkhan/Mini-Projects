@@ -1,6 +1,6 @@
 # Python Mini Projects
 
-This repository contains a collection of small Python projects. The purpose of this repository is to keep practice projects organized in one place and to document progress as I continue learning and experimenting with Python. Each project is stored in its own folder and contains a `main.py` file along with a workspace.
+This repository contains a collection of Python projects. The purpose of this repository is to keep practice projects organized in one place and to document progress as I continue learning and experimenting with Python. Each project is stored in its own folder and contains a `main.py` file along with a workspace.
 
 ## Purpose
 
